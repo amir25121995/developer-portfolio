@@ -343,7 +343,7 @@ function App() {
 
           <a
             className="button button-primary contact-button"
-            href="mailto:your.email@example.com?subject=Portfolio%20Inquiry"
+            href="mailto:amirali8981@gmail.com.com?subject=Portfolio%20Inquiry"
           >
             Send me an email <span>↗</span>
           </a>
