@@ -5,7 +5,7 @@ function App() {
     <main className="site-shell" id="home">
       <nav className="navbar">
         <a className="brand" href="#home">
-          DEV<span>.</span>
+          AMIR<span>.</span>
         </a>
 
         <div className="nav-links">
@@ -27,17 +27,18 @@ function App() {
           </p>
 
           <h1>
-            Building digital
+            Hi, I'm Amir
             <br />
-            experiences that
+            <span>Ali.</span>
             <br />
-            <span>matter.</span>
+            Web Developer.
           </h1>
 
           <p className="hero-description">
-            I create thoughtful web experiences with clean
-            interfaces, useful features, and attention to detail.
-            Every great product starts with a simple idea.
+            I'm a web developer with professional experience in PHP,
+            CodeIgniter, MySQL, and API development. I'm expanding
+            into React and the MERN stack by building practical,
+            real-world projects.
           </p>
 
           <div className="hero-actions">
@@ -350,7 +351,7 @@ function App() {
 
         <footer className="site-footer">
           <a className="brand" href="#home">
-            DEV<span>.</span>
+            AMIR<span>.</span>
           </a>
 
           <p>Designed with purpose. Built with code.</p>
