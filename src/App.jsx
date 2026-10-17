@@ -10,6 +10,7 @@ function App() {
 
         <div className="nav-links">
           <a href="#about">About</a>
+          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
@@ -174,6 +175,101 @@ function App() {
         </article>
       </div>
     </section>
+
+    
+    <section className="experience-section" id="experience">
+      <div className="experience-heading">
+        <p className="eyebrow">
+          <span className="status-dot" />
+          PROFESSIONAL EXPERIENCE
+        </p>
+
+        <h2>
+          Experience that shaped
+          <br />
+          <span>how I build.</span>
+        </h2>
+
+        <p className="experience-intro">
+          My professional background includes PHP development,
+          database-driven applications, admin panels, and API
+          integrations. I am building on that foundation as I
+          expand into modern JavaScript and the MERN stack.
+        </p>
+      </div>
+
+      <div className="experience-list">
+        <article className="experience-item">
+          <p className="experience-period">
+            NOV 2019 — MAR 2022
+          </p>
+
+          <div className="experience-details">
+            <h3>Web Developer</h3>
+            <p className="experience-company">BNB Software</p>
+
+            <ul>
+              <li>
+                Developed and maintained CodeIgniter-based
+                admin features and database-driven workflows.
+              </li>
+              <li>
+                Used JavaScript, jQuery, and AJAX to build
+                interactive features without full-page reloads.
+              </li>
+              <li>
+                Worked on consignment tracking and SMS/email
+                notification workflows.
+              </li>
+            </ul>
+
+            <div className="skill-tags">
+              <span>PHP</span>
+              <span>CodeIgniter</span>
+              <span>MySQL</span>
+              <span>jQuery</span>
+              <span>AJAX</span>
+            </div>
+          </div>
+        </article>
+
+        <article className="experience-item">
+          <p className="experience-period">
+            APR 2022 — JUL 2023
+          </p>
+
+          <div className="experience-details">
+            <h3>PHP Developer</h3>
+            <p className="experience-company">
+              Clirnet Services Pvt. Ltd.
+            </p>
+
+            <ul>
+              <li>
+                Worked on an HMVC-based CodeIgniter admin
+                application.
+              </li>
+              <li>
+                Worked with token-based APIs and application
+                integrations.
+              </li>
+              <li>
+                Used PHP and MySQL to support application
+                features and database operations.
+              </li>
+            </ul>
+
+            <div className="skill-tags">
+              <span>PHP</span>
+              <span>CodeIgniter</span>
+              <span>MySQL</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
 
     <section className="projects-section" id="projects">
   <div className="projects-heading">
