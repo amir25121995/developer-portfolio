@@ -356,11 +356,19 @@
 @media (max-width: 520px) {
   .navbar {
     width: calc(100% - 32px);
-    height: 78px;
+    height: auto;
+    padding: 16px 0;
+    flex-wrap: wrap;
+    row-gap: 14px;
   }
 
   .nav-links {
-    display: none;
+    display: flex;
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 0.75rem;
   }
 
   .hero {
