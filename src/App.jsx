@@ -218,7 +218,7 @@ function App() {
           </div>
         </div>
 
-        <span className="project-status">IN PROGRESS</span>
+        <span className="project-status">LIVE PREVIEW</span>
       </div>
 
       <div className="project-details">
@@ -234,6 +234,23 @@ function App() {
           <span>Vite</span>
           <span>CSS</span>
         </div>
+        <div className="project-links">
+        <a
+          href="https://developer-portfolio-plum-six.vercel.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Live Demo ↗
+        </a>
+
+        <a
+          href="https://github.com/amir25121995/developer-portfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View Source ↗
+        </a>
+      </div>
       </div>
     </article>
 

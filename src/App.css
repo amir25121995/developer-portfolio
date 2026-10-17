@@ -972,3 +972,22 @@
     text-align: left;
   }
 }
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.project-links a {
+  color: #b6ef98;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.project-links a:hover {
+  color: #d0ffb8;
+}
