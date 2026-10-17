@@ -287,9 +287,9 @@ function App() {
     </div>
 
     <p className="projects-intro">
-      I believe in learning by building. Here's my current
-      project and the practical applications I plan to
-      develop next.
+      My portfolio is live. I'm planning a Task Manager
+      and an API Dashboard next. I'll add their live demos
+      and source code once the projects are built and deployed.
     </p>
   </div>
 
@@ -376,7 +376,7 @@ function App() {
           </div>
         </div>
 
-        <span className="project-status planned">PLANNED</span>
+        <span className="project-status COMING SOON">COMING SOON</span>
         </div>
 
         <div className="project-details">
@@ -412,7 +412,7 @@ function App() {
         }`}</pre>
                 </div>
 
-                <span className="project-status planned">PLANNED</span>
+                <span className="project-status COMING SOON">COMING SOON</span>
               </div>
 
               <div className="project-details">
